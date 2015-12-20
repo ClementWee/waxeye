@@ -12,4 +12,4 @@ TO BUILD THE PROJECT
 --------------------
 Download SBT
 cd to the Build Directory
-run SBT
+`sbt compile` or `ant dist`
