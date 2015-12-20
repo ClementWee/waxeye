@@ -7,6 +7,7 @@
 package org.waxeye.ast;
 
 import java.util.List;
+
 import org.waxeye.ast.print.ArrowPrinter;
 
 /**
@@ -69,7 +70,8 @@ public final class AST <E extends Enum<?>> implements IAST<E>
 
         if (object != null && object.getClass() == this.getClass())
         {
-            final AST<E> p = (AST<E>) object;
+            @SuppressWarnings("unchecked")
+			final AST<E> p = (AST<E>) object;
 
             if (type.equals(p.type) && children.equals(p.children))
             {

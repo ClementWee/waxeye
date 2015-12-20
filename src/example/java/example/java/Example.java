@@ -1,3 +1,4 @@
+package example.java;
 /*
  * Waxeye Parser Generator
  * www.waxeye.org
