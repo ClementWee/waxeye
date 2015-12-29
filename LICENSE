@@ -1,4 +1,7 @@
-Waxeye Parser Generator
+Waxeye Parser Generator For Scala
+Copyright (C) 2016-2020 Clement Wee
+Based on:
+The Waxeye Parser
 www.waxeye.org
 Copyright (C) 2008-2010 Orlando Hill
 
