@@ -6,6 +6,9 @@ build.jdk-version.source = 1.5
 build.jdk-version.target = 1.5
 build.optimize = true
 
+# For Scala
+scala.home = ${env.SCALA_HOME}
+
 # Testing libraries
 CHECKSTYLE_LIB = ${env.CHECKSTYLE_LIB}
 TESTNG_LIB = ${env.TESTNG_LIB}
